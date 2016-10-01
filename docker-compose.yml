@@ -1,0 +1,15 @@
+---
+version: '2'
+services:
+  django:
+    build: ./django
+    image: django-img
+    hostname: django
+    container_name: django
+    memswap_limit: 0
+    mem_limit: 512000000
+    restart: always
+    volumes:
+      - "./data/swapi:/opt/swapi"
+    ports:
+      - "8000:8000"
