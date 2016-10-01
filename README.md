@@ -3,17 +3,23 @@
 
 Do deploy this you need:
 * [docker-compose](https://docs.docker.com/compose/install/)
+
 and
+
 * docker
+
 or
+
 * [docker-machine](https://docs.docker.com/machine/install-machine/)
 * [virtualbox](https://www.virtualbox.org/)
+
 
 ## Running on local docker host
 
 1. docker-compose up
 2. http://localhost:8000/ # you may need to Initialize the data
 3. ./test.sh
+
 
 ## Running on host deployed with docker-machine
 
@@ -24,6 +30,7 @@ or
 5. docker-machine ls   # get the IP address
 6. http://192.168.1.56:8000/ # you may need to Initialize the data
 7. ./test.sh 192.168.1.56
+
 
 ## Initialize and load the data
 
