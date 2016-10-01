@@ -3,6 +3,7 @@
 
 1. docker-compose up
 2. http://localhost:8000/ # you may need to Initialize the data
+3. ./test.sh
 
 ## Running on host deployed with docker-machine
 
@@ -12,8 +13,12 @@
 4. docker-compose up
 5. docker-machine ls   # get the IP address
 6. http://192.168.1.56:8000/ # you may need to Initialize the data
+7. ./test.sh 192.168.1.56
 
 ## Initialize and load the data
+
+Once the django container is running, you can start a shell inside to Initialize
+the data.
 
 1. docker exec -ti django bash -l
 2. make build
