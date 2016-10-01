@@ -2,14 +2,13 @@
 ## Requirements
 
 Do deploy this you need:
+
 * [docker-compose](https://docs.docker.com/compose/install/)
-
-and
-
-* docker
+* [docker](https://docs.docker.com/engine/installation/)
 
 or
 
+* [docker-compose](https://docs.docker.com/compose/install/)
 * [docker-machine](https://docs.docker.com/machine/install-machine/)
 * [virtualbox](https://www.virtualbox.org/)
 
