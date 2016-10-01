@@ -1,5 +1,15 @@
 
-## Running the container
+## Requirements
+
+Do deploy this you need:
+* [docker-compose](https://docs.docker.com/compose/install/)
+and
+* docker
+or
+* [docker-machine](https://docs.docker.com/machine/install-machine/)
+* [virtualbox](https://www.virtualbox.org/)
+
+## Running on local docker host
 
 1. docker-compose up
 2. http://localhost:8000/ # you may need to Initialize the data
